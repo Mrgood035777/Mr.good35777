@@ -1,0 +1,90 @@
+* {
+   font-family; Verdana, Geneva, Tahoma, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+
+.header {
+  width: 100%;
+  color: white;
+  padding: 20px;
+  background:  green;
+  box-sizing: border-box;
+
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.menu-link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.banner-title, .banner-description {
+     text-algin: center;
+     color; white;
+}
+.banner-section {
+   font-size: 100px 0;
+   background: url(img/banner-bg.jpg);
+   backround-size: size;
+   background-position: center;
+   }
+
+   /* CARDS */
+
+.cards-section {
+    padding: 50px 0px;
+}
+
+.cards-title, .caeds-description {
+   color: red;
+   text-align: center;
+}
+
+.cards {
+   padding: 25px;
+   margin-top; 25px
+   width: 25%;
+   background: white;
+   box-shadow: 0px 2px 7px 0px #9e90ff;
+}
+.card-link {
+   text decoration: none;
+   color: white;
+
+}
+.cards-button{
+    text-algyn: center;
+    background: black;
+    padding: 10px 7px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cards-title, cards-text{
+    margin-bottom; 10px;
+}
+.cards {
+   display: inline-block;
+   width;  25px;
+   margin: 0px 45px
+}
+
+.footer {
+   background: url(img/footer-bg.jpg);
+   background-size: cover;
+   padding: 100px 0px;
+}
